@@ -288,18 +288,18 @@ nav {
 
 
 
-.feature-card:hover{
+.feature-card:hover {
     transform: translatey(-12px) scale(1.05);
 }
 
 /* host section styles */
 
-.host h1{
+.host h1 {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.host-content{
+.host-content {
     display: flex;
     gap: 24px;
     align-items: center;
@@ -308,7 +308,7 @@ nav {
     background-color: rgba(53, 17, 101, 0.4);
 }
 
-.icons img{
+.icons img {
     margin-right: 8px;
     height: 20px;
     padding: 12px;
@@ -317,7 +317,7 @@ nav {
 }
 
 /* footer styles */
-footer{
+footer {
     background-image: url("../assets/footer-bg.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -327,18 +327,18 @@ footer{
 
 
 
-.footer-content{
+.footer-content {
     max-width: 500px;
     margin: 0 auto;
     text-align: center;
 }
 
-.tech-icon{
+.tech-icon {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
     align-items: center;
-    
+
 }
 
 
@@ -421,7 +421,7 @@ footer{
 
     /* feature */
 
-    .feature{
+    .feature {
         padding: 0 20px;
     }
 
@@ -430,16 +430,17 @@ footer{
     }
 
     /* host */
-    .host-content{
+    .host-content {
         flex-direction: column;
         text-align: center;
     }
-/* footer */
- 
 
- 
-    
-    .tech-icon{
+    /* footer */
+
+
+
+
+    .tech-icon {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
@@ -460,7 +461,7 @@ footer{
     .mobile-menu {
         position: absolute;
         top: 0px;
-        right: 20px;
+        left: 58%;
         background-color: #2a1248;
         flex-direction: column;
         gap: 16px;
