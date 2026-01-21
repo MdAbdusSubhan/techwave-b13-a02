@@ -27,9 +27,20 @@
 }
 
 
+.section-title{
+    font-size: 3.2rem;
+    font-weight: 800;
+}
 
+.container{
+    max-width: 1200px;
+    margin: 50px auto;
+}
 
-
+p{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.658);
+}
 
 /* main styles */
 body{
@@ -143,12 +154,12 @@ nav{
 }
 
 .banner-content h1{
-    font-size: 3.5rem;
+    
     margin-bottom: 8px;
 }
 
 .banner-content p{
-    font-size: 1rem;
+    
     margin-bottom: 24px;
 }
 
@@ -166,6 +177,41 @@ nav{
     color: black;
     background-color: #00FF88;
 }
+
+/* about section styles */
+.about{
+    text-align: center;
+}
+
+.about-content h1{
+    margin-bottom: 16px;
+}
+
+.about-content hr{
+    border: 0.5px solid rgba(245, 222, 179, 0.164);
+    margin-block: 80px;
+}
+
+.rating{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+
+.rating-card h2{
+    color: #00FF88;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+
+
+
+
+
+
 
 /* responsive design */
 
@@ -198,6 +244,17 @@ nav{
     #menu:checked ~ .mobile-menu{
         display: flex;
     }
+
+    /* about */
+
+    .about-content hr{
+    
+    margin-block: 40px;
+}
+
+    .rating{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width:992px) {
@@ -220,6 +277,18 @@ nav{
 
     #menu:checked ~ .mobile-menu{
         display: flex;
+    }
+
+
+     /* about */
+
+    .about-content hr{
+    
+    margin-block: 40px;
+}
+
+    .rating{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
