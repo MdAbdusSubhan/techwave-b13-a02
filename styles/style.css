@@ -325,10 +325,7 @@ footer{
     padding: 100px 0;
 }
 
-footer:first-child{
-        max-width: 200px;
-        object-fit: cover;
-    }
+
 
 .footer-content{
     max-width: 500px;
@@ -341,6 +338,7 @@ footer:first-child{
     grid-template-columns: repeat(4, 1fr);
     gap: 40px;
     align-items: center;
+    
 }
 
 
@@ -437,7 +435,9 @@ footer:first-child{
         text-align: center;
     }
 /* footer */
+ 
 
+ 
     
     .tech-icon{
         grid-template-columns: repeat(2, 1fr);
