@@ -248,6 +248,54 @@ nav {
     background-color: #00ff884f;
 }
 
+/* feature section styles */
+
+.feature {
+    padding-block: 50px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature-card-container {
+    display: flex;
+    gap: 30px;
+}
+
+.feature-card {
+    border-radius: 40px 20px;
+    overflow: hidden;
+    background-color: #250D44;
+
+    transition: transform 0.4s ease-out;
+}
+
+.card-content {
+    padding: 24px;
+}
+
+.card-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+
+.card-content> :last-child {
+    font-weight: 500;
+    color: #00FF88;
+}
+
+
+
+.feature-card:hover{
+    transform: translatey(-12px) scale(1.05);
+}
+
+
+
+
+
 
 
 
@@ -261,6 +309,10 @@ nav {
 /* for smaller device */
 
 @media screen and (max-width:576px) {
+
+    .section-title {
+        font-size: 2rem;
+    }
 
     nav .btn-primary {
         display: none;
@@ -314,6 +366,16 @@ nav {
 
     .card-2 {
         grid-column: auto;
+    }
+
+    /* feature */
+
+    .feature{
+        padding: 0 20px;
+    }
+
+    .feature-card-container {
+        flex-direction: column;
     }
 }
 
